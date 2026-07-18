@@ -53,13 +53,13 @@ export default function Hero() {
                     {/* Right Image */}
                     <div className="relative rounded-3xl overflow-hidden shadow-soft hover:shadow-xl transition-all hover:scale-[1.01]">
                         <Image
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKAvCR3XIqmaZYJwZF7AiQ9t1v29sjflKtTEgkzBfvw&s=10"
-                            alt="HVAC technician servicing air conditioning unit"
-                            width={800}
-                            height={600}
-                            className="w-full h-[420px] sm:h-[480px] object-cover"
-                            priority
-                        />
+    src="/ac-repair.jpg"
+    alt="HVAC technician servicing air conditioning unit"
+    width={800}
+    height={600}
+    className="w-full h-[420px] sm:h-[480px] object-cover"
+    priority
+/>
                         <div className="absolute top-6 right-6 bg-accent-warm text-white px-5 py-2.5 rounded-full font-bold text-sm flex items-center gap-2 shadow-glow-warm animate-pulse-badge">
                             <FaBolt className="text-sm" />
                             24/7 Emergency
